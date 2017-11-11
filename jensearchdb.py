@@ -274,8 +274,8 @@ def main():
                            # also in the actual search in your addon in kodi eg Jen - The Avengers
     ]
 
-    os.remove(".output/search.db")  # add the directory to where this file is stored
-    dbcon = database.connect(".output/search.db") # add the directory to where this file is stored
+    os.remove("./output/search.db")  # add the directory to where this file is stored
+    dbcon = database.connect("./output/search.db") # add the directory to where this file is stored
     dbcur = dbcon.cursor()
     dbcur.execute(
         "CREATE TABLE IF NOT EXISTS search (""item TEXT, ""poster TEXT);")

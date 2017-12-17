@@ -61,8 +61,11 @@
     <category label="30770">
       <!-- debugging and developer options -->
       <setting id="debug" type="bool" label="30758" default="false" visible="true"/>
-      <setting id="first_run" label="first run" type="bool" default="true" visible="false"/>
+      <setting id="first_run" label="first run" type="bool" default="false" visible="false"/>
       <setting label="Cache Location" id="cache_folder" type="folder" default="special://profile/addon_data/plugin.video.jen/"/>
+      <setting id="TRAKT_ACCES_TOKEN" label="" type="text" visible="false"/>
+      <setting id="TRAKT_EXPIRES_AT" label="" type="text" visible="false"/>
+      <setting id="TRAKT_REFRESH_TOKEN" label="" type="text" visible="false"/>
     </category>
 
 

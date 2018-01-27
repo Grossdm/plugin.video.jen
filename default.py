@@ -22,8 +22,8 @@ import __builtin__
 # -----------------------
 # change these to suit your addons
 root_xml_url = ""  # url of the root xml file
-__builtin__.tvdb_api_key = ""  # tvdb api key
-__builtin__.tmdb_api_key = ""  # tmdb api key
+__builtin__.tvdb_api_key = "114A94896D0A6B93"  # tvdb api key
+__builtin__.tmdb_api_key = "85ebdb43a5310258c3474a59e541e625"  # tmdb api key
 __builtin__.trakt_client_id = ""  # trakt client id
 __builtin__.trakt_client_secret = ""  # trakt client secret
 __builtin__.search_db_location = ""  # location of search db
